@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
     def on_key(window, key, scancode, action, mods):
         if key == glfw.GLFW_KEY_ESCAPE and action == glfw.GLFW_PRESS:
-            glfw.glfwSetWindowShouldClose(window,1)
+            glfw.glfwSetWindowShouldClose(window, 1)
 
     # Initialize the library
     if not glfw.glfwInit():
